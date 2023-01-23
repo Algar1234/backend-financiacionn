@@ -5,7 +5,7 @@ const app = require('./app');
 const uri = process.env.url;
 mongoose.set("strictQuery", false);
 mongoose.Promise= global.Promise;
-mongoose.connect(uri)
+mongoose.connect(uri) ////fvfvfvfvfvf
 .then(()=>{
     console.log('Conexion a labase de datos establecida satisfactoriamente')
      
