@@ -15,7 +15,7 @@ mongoose.connect(uri) ////fvfvfvfvfvf
 })
 .catch(err=> console.log(err));
 
-
+/*
 const { MongoClient, ServerApiVersion } = require('mongodb');
 
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true, serverApi: ServerApiVersion.v1 });
@@ -24,7 +24,7 @@ client.connect(err => {
   // perform actions on the collection object
   client.close();
 });
-/*
+
 var mongoose= require('mongoose');
 const app = require('./app');
 const port= 7209;
