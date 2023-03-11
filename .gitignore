@@ -3,8 +3,13 @@
 .dockerignore
 .vercel
 verser.json
-/database
 indexx.js
 Dockerfile
 docker-compose.yml
-/node_modules
+database
+financiacion/
+node_modules
+api/
+indexdocker.js
+
+
