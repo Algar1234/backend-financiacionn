@@ -1,4 +1,4 @@
-const bcryptjs= require ('bcrypt');
+const bcryptjs= require ('bcryptjs');
 
 const encrypt= async (passwordPlain)=>{
     //encriptar contrase#a

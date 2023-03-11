@@ -1,6 +1,6 @@
 "use strict"
 
-const project = require('../../backend/models/project');
+//const project = require('../../backend/models/project');
 const ShoppingCar = require('../models/shoppingCar');
 const ShoppinDetails= require('../models/shoppingDetails');
 var moment = require('moment');
@@ -51,7 +51,7 @@ var controller={
             
             if(err) return res.status(500).send({message: 'error aldevolver los datos'});
 
-            if(!project) return res.status(404).send({message:'elproyecto no existe'});
+            if(!shoppingDetails) return res.status(404).send({message:'elproyecto no existe'});
 
             return res.status(200).send({
                 shoppingDetails

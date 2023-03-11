@@ -7,7 +7,6 @@ const {encrypt, compare }= require('../utils/handlePassword');
 //requerido para generar un codigo deconfirmacion
 const { v4: uuidv4 } = require('uuid')
 const {sendEmail, getTemplate, templateResetPassword}= require('../config/email.config');
-const { get } = require('../../portal-web/backend-web/rutes/auth');
 const {verificarRegistro}= require('../template/verificarRegistro');
 const {TemplateResetPassword}= require('../template/resetPassword');
 var moment = require('moment');

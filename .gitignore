@@ -1,2 +1,10 @@
 .env
+.env.example
+.dockerignore
 .vercel
+verser.json
+/database
+indexx.js
+Dockerfile
+docker-compose.yml
+/node_modules
