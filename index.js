@@ -5,7 +5,6 @@ const app = require('./app');
 //const uri = process.env.url;
 mongoose.set("strictQuery", false);
 mongoose.Promise= global.Promise;
-			
 
 
   var config = JSON.parse(process.env.APP_CONFIG);
@@ -17,7 +16,7 @@ mongoose.Promise= global.Promise;
     function(err, db) {
       if(!err) {
         res.end("We are connected to MongoDB");
-        app.listen(3700,()=>{//metodo de express
+         app.listen(3700,()=>{//metodo de express
             console.log('Servidor corriendo correctamente en la url: localhost:3700')
         })
       } else {
@@ -25,4 +24,4 @@ mongoose.Promise= global.Promise;
       }
     }
   );
-
+ // server.listen(process.env.PORT)
